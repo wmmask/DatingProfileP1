@@ -25,7 +25,7 @@ namespace DatingProfileP1.Controllers
             return View();
         }
 
-        [HttpPost]
+        [HttpPost]  
         public IActionResult CreateUser(string username, string password)
         {
             IdentityUser newUser = new IdentityUser();
